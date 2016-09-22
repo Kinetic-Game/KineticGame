@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\ChangeColor.cs" />
      <Compile Include="Assets\Scripts\CharSelectionScreen\AddSpriteToParty.cs" />
+     <Compile Include="Assets\Scripts\CharSelectionScreen\GoToFightButton.cs" />
      <Compile Include="Assets\Scripts\CharSelectionScreen\PartySpot.cs" />
      <Compile Include="Assets\Scripts\DragMe.cs" />
      <Compile Include="Assets\Scripts\DragPanel.cs" />
