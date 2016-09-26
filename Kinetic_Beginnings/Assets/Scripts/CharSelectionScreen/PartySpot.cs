@@ -6,7 +6,7 @@ public class PartySpot : MonoBehaviour {
 
     public bool isFilled;
     public Image thisObject;
-
+    //public Button thisButton;
 	// Use this for initialization
 	void Start () {
 	
@@ -34,6 +34,21 @@ public class PartySpot : MonoBehaviour {
         {
             Debug.LogWarning("Can't tell if sprite is filled or not on " + this.name);
         }
+
+        //if (thisButton.GetComponent<Sprite>() != null)
+        //{
+        //    isFilled = true;
+        //}
+
+        //else if (thisButton.GetComponent<Sprite>() == null)
+        //{
+        //    isFilled = false;
+        //}
+
+        //else
+        //{
+        //    Debug.LogWarning("Can't tell if sprite is filled or not on " + this.name);
+        //}
     }
 
     public bool CheckIsFilled()

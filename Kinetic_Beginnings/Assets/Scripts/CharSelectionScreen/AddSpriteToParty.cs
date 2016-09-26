@@ -39,7 +39,7 @@ public class AddSpriteToParty : MonoBehaviour {
 
         else
         {
-            Debug.LogWarning("No active member of partySpot array found in " + this.name);
+            return;
         }
     }
 }
