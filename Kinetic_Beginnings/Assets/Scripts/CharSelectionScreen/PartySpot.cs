@@ -4,14 +4,10 @@ using UnityEngine.UI;
 
 public class PartySpot : MonoBehaviour {
 
-    public bool isFilled;
-    public Image thisObject;
-    //public Button thisButton;
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
+    bool isFilled;
+
+    public Button thisButton;
+
 	// Update is called once per frame
 	void Update ()
     {
@@ -20,13 +16,16 @@ public class PartySpot : MonoBehaviour {
 
     void IsSpriteFilled()
     {
-        if (thisObject.sprite != null)
+
+        if (thisButton.image.sprite != null)
         {
+            thisButton.image.color = Color.white;
             isFilled = true;
         }
 
-        else if (thisObject.sprite == null)
+        else if (thisButton.image.sprite == null)
         {
+            thisButton.image.color = Color.clear;
             isFilled = false;
         }
 
@@ -34,25 +33,30 @@ public class PartySpot : MonoBehaviour {
         {
             Debug.LogWarning("Can't tell if sprite is filled or not on " + this.name);
         }
-
-        //if (thisButton.GetComponent<Sprite>() != null)
-        //{
-        //    isFilled = true;
-        //}
-
-        //else if (thisButton.GetComponent<Sprite>() == null)
-        //{
-        //    isFilled = false;
-        //}
-
-        //else
-        //{
-        //    Debug.LogWarning("Can't tell if sprite is filled or not on " + this.name);
-        //}
     }
 
     public bool CheckIsFilled()
     {
         return isFilled;
+    }
+
+    public void OnPress()
+    {
+        if (thisButton.image.sprite != null)
+        {
+            thisButton.image.sprite = null;
+            thisButton.image.color = Color.clear;
+            isFilled = false;
+        }
+
+        else if (thisButton.image.sprite == null)
+        {
+            return;
+        }
+
+        else
+        {
+            return;
+        }
     }
 }

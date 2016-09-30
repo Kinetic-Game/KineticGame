@@ -28,7 +28,7 @@ public class GoToFightButton : MonoBehaviour {
             spot = pI.GetComponent<PartySpot>();
             if (spot.CheckIsFilled() == true)
             {
-                Debug.Log("IsFilled is true for " + pI.name);
+//                Debug.Log("IsFilled is true for " + pI.name);
                 thisButton.interactable = true;
             }
 
