@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GoToFightButton : MonoBehaviour {
 
@@ -36,6 +37,14 @@ public class GoToFightButton : MonoBehaviour {
             {
                 return;
             }
+        }
+    }
+
+    public void OnPress()
+    {
+        if (thisButton.interactable == true)
+        {
+            SceneManager.LoadScene(1);
         }
     }
 }
