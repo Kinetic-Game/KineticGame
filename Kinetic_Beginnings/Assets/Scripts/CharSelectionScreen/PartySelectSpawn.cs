@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 using UnityEngine.UI;
+using UnityEditor;
 using UnityEditor.SceneManagement;
 
 public class PartySelectSpawn : MonoBehaviour {
@@ -14,6 +16,8 @@ public class PartySelectSpawn : MonoBehaviour {
     string[] partyMembers = new string[3];
 
     bool hasSpawned = false;
+
+    int memNumber;
 
 	// Use this for initialization
 	void Start ()
@@ -55,19 +59,19 @@ public class PartySelectSpawn : MonoBehaviour {
             if (partySpot[0].image.sprite != null)
             {
                 partyMembers[0] = partySpot[0].image.sprite.name;
-                //           Debug.Log("1st party memeber name is " + partyMembers[0]);
+                Debug.Log("1st party memeber name is " + partyMembers[0]);
             }
 
             if (partySpot[1].image.sprite != null)
             {
                 partyMembers[1] = partySpot[1].image.sprite.name;
-                //            Debug.Log("2nd party memeber name is " + partyMembers[1]);
+                Debug.Log("2nd party memeber name is " + partyMembers[1]);
             }
 
             if (partySpot[2].image.sprite != null)
             {
                 partyMembers[2] = partySpot[2].image.sprite.name;
-                //            Debug.Log("3rd party memeber name is " + partyMembers[2]);
+                Debug.Log("3rd party memeber name is " + partyMembers[2]);
             }
         }
     }
@@ -110,19 +114,22 @@ public class PartySelectSpawn : MonoBehaviour {
                     if (partyMembers[0] != null)
                     {
                         plyrSpawnPoints[0] = GameObject.FindGameObjectWithTag("LeftSpawnPoint");
-                        Instantiate(plyrPrefabs[0], plyrSpawnPoints[0].transform);
+                        SpwnWhichMember();
+                        Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[0].transform.position, plyrSpawnPoints[0].transform.rotation);
                     }
 
                     if (partyMembers[1] != null)
                     {
                         plyrSpawnPoints[1] = GameObject.FindGameObjectWithTag("CenterSpawnPoint");
-                        Instantiate(plyrPrefabs[0], plyrSpawnPoints[1].transform);
+                        SpwnWhichMember();
+                        Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[1].transform.position, plyrSpawnPoints[1].transform.rotation);
                     }
 
                     if (partyMembers[2] != null)
                     {
                         plyrSpawnPoints[2] = GameObject.FindGameObjectWithTag("RightSpawnPoint");
-                        Instantiate(plyrPrefabs[0], plyrSpawnPoints[2].transform);
+                        SpwnWhichMember();
+                        Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[2].transform.position, plyrSpawnPoints[2].transform.rotation);
                     }
                 }
 
@@ -130,4 +137,52 @@ public class PartySelectSpawn : MonoBehaviour {
             }
         }
     }
+
+    void SpwnWhichMember()
+    {
+        int pos;
+        if (ArrayUtility.Contains(partyMembers, "Alex_Char_Select"))
+        {
+            pos = ArrayUtility.IndexOf(partyMembers, "Alex_Char_Select");
+            memNumber = 0;
+            ArrayUtility.RemoveAt(ref partyMembers, pos);
+        }
+
+        else if (ArrayUtility.Contains(partyMembers, "D_Char_Select"))
+        {
+            pos = ArrayUtility.IndexOf(partyMembers, "D_Char_Select");
+            memNumber = 1;
+            ArrayUtility.RemoveAt(ref partyMembers, pos);
+        }
+
+        else if (ArrayUtility.Contains(partyMembers, "Cass_Char_Select"))
+        {
+            pos = ArrayUtility.IndexOf(partyMembers, "Cass_Char_Select");
+            memNumber = 2;
+            ArrayUtility.RemoveAt(ref partyMembers, pos);
+        }
+
+        else if (ArrayUtility.Contains(partyMembers, "Chris_Char_Select"))
+        {
+            pos = ArrayUtility.IndexOf(partyMembers, "Chris_Char_Select");
+            memNumber = 3;
+            ArrayUtility.RemoveAt(ref partyMembers, pos);
+        }
+
+        else if (ArrayUtility.Contains(partyMembers, "Tori_Char_Select"))
+        {
+            pos = ArrayUtility.IndexOf(partyMembers, "Tori_Char_Select");
+            memNumber = 4;
+            ArrayUtility.RemoveAt(ref partyMembers, pos);
+        }
+
+        else if (ArrayUtility.Contains(partyMembers, "Shyra_Char_Select"))
+        {
+            pos = ArrayUtility.IndexOf(partyMembers, "Shyra_Char_Select");
+            memNumber = 5;
+            ArrayUtility.RemoveAt(ref partyMembers, pos);
+        }
+    }
+
+
 }
