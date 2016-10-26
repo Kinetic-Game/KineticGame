@@ -35,4 +35,8 @@ public class CharInfoPanel : MonoBehaviour {
         }
     }
 
+    public void BackButton()
+    {
+        this.gameObject.SetActive(false);
+    }
 }

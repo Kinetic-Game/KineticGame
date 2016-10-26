@@ -59,19 +59,19 @@ public class PartySelectSpawn : MonoBehaviour {
             if (partySpot[0].image.sprite != null)
             {
                 partyMembers[0] = partySpot[0].image.sprite.name;
-                Debug.Log("1st party memeber name is " + partyMembers[0]);
+//                Debug.Log("1st party memeber name is " + partyMembers[0]);
             }
 
             if (partySpot[1].image.sprite != null)
             {
                 partyMembers[1] = partySpot[1].image.sprite.name;
-                Debug.Log("2nd party memeber name is " + partyMembers[1]);
+//                Debug.Log("2nd party memeber name is " + partyMembers[1]);
             }
 
             if (partySpot[2].image.sprite != null)
             {
                 partyMembers[2] = partySpot[2].image.sprite.name;
-                Debug.Log("3rd party memeber name is " + partyMembers[2]);
+//                Debug.Log("3rd party memeber name is " + partyMembers[2]);
             }
         }
     }
@@ -111,11 +111,11 @@ public class PartySelectSpawn : MonoBehaviour {
             {
                 if (partyMembers[0] != null)
                 {
-                    if (partyMembers[0] != null)
+                    if (partyMembers[2] != null)
                     {
-                        plyrSpawnPoints[0] = GameObject.FindGameObjectWithTag("LeftSpawnPoint");
+                        plyrSpawnPoints[2] = GameObject.FindGameObjectWithTag("LeftSpawnPoint");
                         SpwnWhichMember();
-                        Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[0].transform.position, plyrSpawnPoints[0].transform.rotation);
+                        Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[2].transform.position, plyrSpawnPoints[2].transform.rotation);
                     }
 
                     if (partyMembers[1] != null)
@@ -125,11 +125,11 @@ public class PartySelectSpawn : MonoBehaviour {
                         Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[1].transform.position, plyrSpawnPoints[1].transform.rotation);
                     }
 
-                    if (partyMembers[2] != null)
+                    if (partyMembers[0] != null)
                     {
-                        plyrSpawnPoints[2] = GameObject.FindGameObjectWithTag("RightSpawnPoint");
+                        plyrSpawnPoints[0] = GameObject.FindGameObjectWithTag("RightSpawnPoint");
                         SpwnWhichMember();
-                        Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[2].transform.position, plyrSpawnPoints[2].transform.rotation);
+                        Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[0].transform.position, plyrSpawnPoints[0].transform.rotation);
                     }
                 }
 
