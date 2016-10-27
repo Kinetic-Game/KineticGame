@@ -22,5 +22,7 @@ public class CharButtons : MonoBehaviour {
     public void OnPress()
     {
         panel.GatherInfo(charFace, abilGraph, bioText);
+        Button butt = this.gameObject.GetComponent<Button>();
+        butt.interactable = false;
     }
 }

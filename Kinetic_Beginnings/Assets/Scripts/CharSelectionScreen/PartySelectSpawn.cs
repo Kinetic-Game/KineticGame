@@ -39,12 +39,10 @@ public class PartySelectSpawn : MonoBehaviour {
         obj = GameObject.FindObjectsOfType<PartySelectSpawn>();
         if (obj.Length > 1)
         {
-            for (int i = 1; i < obj.Length; i++)
-            {
-                Destroy(obj[i].gameObject);
-            }
-            
+            Destroy(obj[0].gameObject);
         }
+
+
     }
 
     void PartyCheck()
@@ -113,21 +111,21 @@ public class PartySelectSpawn : MonoBehaviour {
                 {
                     if (partyMembers[2] != null)
                     {
-                        plyrSpawnPoints[2] = GameObject.FindGameObjectWithTag("LeftSpawnPoint");
+                        plyrSpawnPoints[2] = GameObject.FindGameObjectWithTag("SpawnPoint3");
                         SpwnWhichMember();
                         Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[2].transform.position, plyrSpawnPoints[2].transform.rotation);
                     }
 
                     if (partyMembers[1] != null)
                     {
-                        plyrSpawnPoints[1] = GameObject.FindGameObjectWithTag("CenterSpawnPoint");
+                        plyrSpawnPoints[1] = GameObject.FindGameObjectWithTag("SpawnPoint2");
                         SpwnWhichMember();
                         Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[1].transform.position, plyrSpawnPoints[1].transform.rotation);
                     }
 
                     if (partyMembers[0] != null)
                     {
-                        plyrSpawnPoints[0] = GameObject.FindGameObjectWithTag("RightSpawnPoint");
+                        plyrSpawnPoints[0] = GameObject.FindGameObjectWithTag("SpawnPoint1");
                         SpwnWhichMember();
                         Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[0].transform.position, plyrSpawnPoints[0].transform.rotation);
                     }
