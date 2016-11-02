@@ -6,9 +6,9 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 
 public class PartySelectSpawn : MonoBehaviour {
-
+    [HideInInspector]
     public Button[] partySpot = new Button[3];
-
+    [HideInInspector]
     public GameObject[] plyrSpawnPoints = new GameObject[3];
 
     public GameObject[] plyrPrefabs = new GameObject[6];
@@ -19,9 +19,12 @@ public class PartySelectSpawn : MonoBehaviour {
 
     int memNumber;
 
+    FightSelectSpawn fightSpwn;
+
 	// Use this for initialization
 	void Start ()
     {
+        fightSpwn = this.gameObject.GetComponent<FightSelectSpawn>();
         DontDestroyOnLoad(this.gameObject);
 	}
 	
@@ -100,12 +103,12 @@ public class PartySelectSpawn : MonoBehaviour {
 
         if (EditorSceneManager.GetActiveScene().name != "Character Select")
         {
-            if (hasSpawned == true)
+            if (hasSpawned == true || fightSpwn.ReturnLvlSpawn() == false)
             {
                 return;
             }
 
-            if (hasSpawned == false)
+            if (hasSpawned == false && fightSpwn.ReturnLvlSpawn() == true)
             {
                 if (partyMembers[0] != null)
                 {

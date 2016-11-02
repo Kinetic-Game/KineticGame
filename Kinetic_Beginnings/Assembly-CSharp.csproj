@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\CharSelectionScreen\CharInfoPanel.cs" />
      <Compile Include="Assets\Scripts\CharSelectionScreen\EnemyPartyPanel.cs" />
      <Compile Include="Assets\Scripts\CharSelectionScreen\EnemyPartySpot.cs" />
+     <Compile Include="Assets\Scripts\CharSelectionScreen\FightSelectSpawn.cs" />
      <Compile Include="Assets\Scripts\CharSelectionScreen\GoToCharSelectTestButton.cs" />
      <Compile Include="Assets\Scripts\CharSelectionScreen\GoToFightButton.cs" />
      <Compile Include="Assets\Scripts\CharSelectionScreen\PartySelectSpawn.cs" />
