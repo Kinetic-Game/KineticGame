@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: a025f1cc6b55b444dbbef5acdb9e53de
+timeCreated: 1479355523
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ct_neck_01
+    100002: Ct_neck_02
+    100004: Ct_spine_01
+    100006: Ct_spine_02
+    100008: Ct_spine_03
+    100010: Ct_spine_04
+    100012: Ct_spine_05
+    100014: Head
+    100016: Head_Alex3
+    100018: Hips_rotate
+    100020: Hips_trans
+    100022: //RootNode
+    100024: Lt_ankle
+    100026: Lt_arm_ikHandle
+    100028: Lt_coller
+    100030: Lt_elbow
+    100032: Lt_elbow 1
+    100034: Lt_fingerd__01
+    100036: Lt_fingerd__02
+    100038: Lt_fingerd__02 1
+    100040: Lt_fingerd__02 2
+    100042: Lt_fingerd__02 3
+    100044: Lt_fingerd__03
+    100046: Lt_fingerd__04
+    100048: Lt_fingerd__05
+    100050: Lt_foot_rotate
+    100052: Lt_foot_trans
+    100054: Lt_hand_rotate
+    100056: Lt_hand_trans
+    100058: Lt_hip
+    100060: Lt_index1
+    100062: Lt_index2
+    100064: Lt_knee
+    100066: Lt_knee 1
+    100068: Lt_leg_ikHandle
+    100070: Lt_mid1
+    100072: Lt_mid2
+    100074: Lt_pinky1
+    100076: Lt_pinky2
+    100078: Lt_ring1
+    100080: Lt_ring2
+    100082: Lt_shulder
+    100084: Lt_thumb1
+    100086: Lt_thumb2
+    100088: Lt_thumb__01
+    100090: Lt_thumb__02
+    100092: Lt_toe
+    100094: Lt_toe 1
+    100096: Lt_wrist
+    100098: Master
+    100100: Neck
+    100102: Rt_ankle
+    100104: Rt_arm_ikHandle
+    100106: Rt_coller
+    100108: Rt_elbow
+    100110: Rt_elbow 1
+    100112: Rt_fingerd__01
+    100114: Rt_fingerd__02
+    100116: Rt_fingerd__02 1
+    100118: Rt_fingerd__02 2
+    100120: Rt_fingerd__02 3
+    100122: Rt_fingerd__03
+    100124: Rt_fingerd__04
+    100126: Rt_fingerd__05
+    100128: Rt_foot_rotate
+    100130: Rt_foot_trans
+    100132: Rt_hand_rotate
+    100134: Rt_hand_trans
+    100136: Rt_hip
+    100138: Rt_index1
+    100140: Rt_index2
+    100142: Rt_knee
+    100144: Rt_knee 1
+    100146: Rt_leg_ikHandle
+    100148: Rt_mid1
+    100150: Rt_mid2
+    100152: Rt_pinky1
+    100154: Rt_pinky2
+    100156: Rt_ring1
+    100158: Rt_ring2
+    100160: Rt_shulder
+    100162: Rt_thumb1
+    100164: Rt_thumb2
+    100166: Rt_thumb__01
+    100168: Rt_thumb__02
+    100170: Rt_toe
+    100172: Rt_toe 1
+    100174: Rt_wrist
+    100176: Spine1
+    100178: Spine2
+    100180: Spine3
+    400000: Ct_neck_01
+    400002: Ct_neck_02
+    400004: Ct_spine_01
+    400006: Ct_spine_02
+    400008: Ct_spine_03
+    400010: Ct_spine_04
+    400012: Ct_spine_05
+    400014: Head
+    400016: Head_Alex3
+    400018: Hips_rotate
+    400020: Hips_trans
+    400022: //RootNode
+    400024: Lt_ankle
+    400026: Lt_arm_ikHandle
+    400028: Lt_coller
+    400030: Lt_elbow
+    400032: Lt_elbow 1
+    400034: Lt_fingerd__01
+    400036: Lt_fingerd__02
+    400038: Lt_fingerd__02 1
+    400040: Lt_fingerd__02 2
+    400042: Lt_fingerd__02 3
+    400044: Lt_fingerd__03
+    400046: Lt_fingerd__04
+    400048: Lt_fingerd__05
+    400050: Lt_foot_rotate
+    400052: Lt_foot_trans
+    400054: Lt_hand_rotate
+    400056: Lt_hand_trans
+    400058: Lt_hip
+    400060: Lt_index1
+    400062: Lt_index2
+    400064: Lt_knee
+    400066: Lt_knee 1
+    400068: Lt_leg_ikHandle
+    400070: Lt_mid1
+    400072: Lt_mid2
+    400074: Lt_pinky1
+    400076: Lt_pinky2
+    400078: Lt_ring1
+    400080: Lt_ring2
+    400082: Lt_shulder
+    400084: Lt_thumb1
+    400086: Lt_thumb2
+    400088: Lt_thumb__01
+    400090: Lt_thumb__02
+    400092: Lt_toe
+    400094: Lt_toe 1
+    400096: Lt_wrist
+    400098: Master
+    400100: Neck
+    400102: Rt_ankle
+    400104: Rt_arm_ikHandle
+    400106: Rt_coller
+    400108: Rt_elbow
+    400110: Rt_elbow 1
+    400112: Rt_fingerd__01
+    400114: Rt_fingerd__02
+    400116: Rt_fingerd__02 1
+    400118: Rt_fingerd__02 2
+    400120: Rt_fingerd__02 3
+    400122: Rt_fingerd__03
+    400124: Rt_fingerd__04
+    400126: Rt_fingerd__05
+    400128: Rt_foot_rotate
+    400130: Rt_foot_trans
+    400132: Rt_hand_rotate
+    400134: Rt_hand_trans
+    400136: Rt_hip
+    400138: Rt_index1
+    400140: Rt_index2
+    400142: Rt_knee
+    400144: Rt_knee 1
+    400146: Rt_leg_ikHandle
+    400148: Rt_mid1
+    400150: Rt_mid2
+    400152: Rt_pinky1
+    400154: Rt_pinky2
+    400156: Rt_ring1
+    400158: Rt_ring2
+    400160: Rt_shulder
+    400162: Rt_thumb1
+    400164: Rt_thumb2
+    400166: Rt_thumb__01
+    400168: Rt_thumb__02
+    400170: Rt_toe
+    400172: Rt_toe 1
+    400174: Rt_wrist
+    400176: Spine1
+    400178: Spine2
+    400180: Spine3
+    4300000: Head_Alex3
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Head_Alex3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -73,10 +73,10 @@
      <None Include="Assets\Day-Night Skyboxes\readme.txt" />
      <None Include="Assets\NeatWolf\ParticleFX03\_Shaders\NW_Particle AddSmooth.shader" />
      <None Include="Assets\ArtAssets\Barriers\WoodFence_02\_ReadMe_Plank_Fence.txt" />
-     <None Include="Assets\Damaged_old_van\readme.txt" />
+     <None Include="Assets\ArtAssets\Damaged_old_van\readme.txt" />
      <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
-     <None Include="Assets\Damaged_old_car\readme.txt" />
+     <None Include="Assets\ArtAssets\Damaged_old_car\readme.txt" />
      <None Include="Assets\NeatWolf\ParticleFX03\_Shaders\NW_Particle Rim AddSmooth.shader" />
      <None Include="Assets\Art\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\NeatWolf\ParticleFX03\_Shaders\NW_Reflective Alpha.shader" />
