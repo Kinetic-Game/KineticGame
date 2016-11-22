@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: bd81be9f04d186442828f57a8babfb74
+timeCreated: 1479355601
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ct_neck_01
+    100002: Ct_neck_02
+    100004: Ct_spine_01
+    100006: Ct_spine_02
+    100008: Ct_spine_03
+    100010: Ct_spine_04
+    100012: Ct_spine_05
+    100014: Head_Alex3
+    100016: Lt_ankle
+    100018: Lt_coller
+    100020: Lt_elbow
+    100022: Lt_fingerd__01
+    100024: Lt_fingerd__02
+    100026: Lt_fingerd__02 1
+    100028: Lt_fingerd__02 2
+    100030: Lt_fingerd__02 3
+    100032: Lt_fingerd__03
+    100034: Lt_fingerd__04
+    100036: Lt_fingerd__05
+    100038: Lt_hip
+    100040: Lt_knee
+    100042: Lt_shulder
+    100044: Lt_thumb__01
+    100046: Lt_thumb__02
+    100048: Lt_toe
+    100050: Lt_wrist
+    100052: //RootNode
+    100054: Rt_ankle
+    100056: Rt_coller
+    100058: Rt_elbow
+    100060: Rt_fingerd__01
+    100062: Rt_fingerd__02
+    100064: Rt_fingerd__02 1
+    100066: Rt_fingerd__02 2
+    100068: Rt_fingerd__02 3
+    100070: Rt_fingerd__03
+    100072: Rt_fingerd__04
+    100074: Rt_fingerd__05
+    100076: Rt_hip
+    100078: Rt_knee
+    100080: Rt_shulder
+    100082: Rt_thumb__01
+    100084: Rt_thumb__02
+    100086: Rt_toe
+    100088: Rt_wrist
+    400000: Ct_neck_01
+    400002: Ct_neck_02
+    400004: Ct_spine_01
+    400006: Ct_spine_02
+    400008: Ct_spine_03
+    400010: Ct_spine_04
+    400012: Ct_spine_05
+    400014: Head_Alex3
+    400016: Lt_ankle
+    400018: Lt_coller
+    400020: Lt_elbow
+    400022: Lt_fingerd__01
+    400024: Lt_fingerd__02
+    400026: Lt_fingerd__02 1
+    400028: Lt_fingerd__02 2
+    400030: Lt_fingerd__02 3
+    400032: Lt_fingerd__03
+    400034: Lt_fingerd__04
+    400036: Lt_fingerd__05
+    400038: Lt_hip
+    400040: Lt_knee
+    400042: Lt_shulder
+    400044: Lt_thumb__01
+    400046: Lt_thumb__02
+    400048: Lt_toe
+    400050: Lt_wrist
+    400052: //RootNode
+    400054: Rt_ankle
+    400056: Rt_coller
+    400058: Rt_elbow
+    400060: Rt_fingerd__01
+    400062: Rt_fingerd__02
+    400064: Rt_fingerd__02 1
+    400066: Rt_fingerd__02 2
+    400068: Rt_fingerd__02 3
+    400070: Rt_fingerd__03
+    400072: Rt_fingerd__04
+    400074: Rt_fingerd__05
+    400076: Rt_hip
+    400078: Rt_knee
+    400080: Rt_shulder
+    400082: Rt_thumb__01
+    400084: Rt_thumb__02
+    400086: Rt_toe
+    400088: Rt_wrist
+    4300000: Head_Alex3
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Head_Alex3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
