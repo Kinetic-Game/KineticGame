@@ -1,8 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{AF23DC53-62B9-D8EA-0390-8260769215FC}") = "Kinetic_Beginnings", "Assembly-CSharp-firstpass.csproj", "{131F30C2-2EF1-5CD4-CDAB-A7C2721999BA}"
-EndProject
 Project("{AF23DC53-62B9-D8EA-0390-8260769215FC}") = "Kinetic_Beginnings", "Assembly-CSharp.csproj", "{E3C70049-6871-AEF8-DFBB-6C01662BC786}"
 EndProject
 Project("{AF23DC53-62B9-D8EA-0390-8260769215FC}") = "Kinetic_Beginnings", "Assembly-CSharp-Editor.csproj", "{DB4875B8-FD1C-5042-BB12-3B40AA29342B}"
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{131F30C2-2EF1-5CD4-CDAB-A7C2721999BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{131F30C2-2EF1-5CD4-CDAB-A7C2721999BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{131F30C2-2EF1-5CD4-CDAB-A7C2721999BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{131F30C2-2EF1-5CD4-CDAB-A7C2721999BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E3C70049-6871-AEF8-DFBB-6C01662BC786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E3C70049-6871-AEF8-DFBB-6C01662BC786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3C70049-6871-AEF8-DFBB-6C01662BC786}.Release|Any CPU.ActiveCfg = Release|Any CPU

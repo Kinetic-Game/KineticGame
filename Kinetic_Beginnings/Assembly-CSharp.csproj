@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -45,65 +45,105 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Elementals\Demo\Scripts\GE_Elementals_Demo.cs" />
-     <Compile Include="Assets\NeatWolf\ParticleFX03\_Scripts\Rotating.cs" />
-     <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
-     <Compile Include="Assets\Scripts\ApplicationManager.cs" />
-     <Compile Include="Assets\Scripts\ChangeColor.cs" />
-     <Compile Include="Assets\Scripts\CharSelectionScreen\AddSpriteToParty.cs" />
-     <Compile Include="Assets\Scripts\CharSelectionScreen\CharButtons.cs" />
-     <Compile Include="Assets\Scripts\CharSelectionScreen\CharInfoPanel.cs" />
-     <Compile Include="Assets\Scripts\CharSelectionScreen\EnemyPartyPanel.cs" />
-     <Compile Include="Assets\Scripts\CharSelectionScreen\EnemyPartySpot.cs" />
-     <Compile Include="Assets\Scripts\CharSelectionScreen\FightSelectSpawn.cs" />
-     <Compile Include="Assets\Scripts\CharSelectionScreen\GoToCharSelectTestButton.cs" />
-     <Compile Include="Assets\Scripts\CharSelectionScreen\GoToFightButton.cs" />
-     <Compile Include="Assets\Scripts\CharSelectionScreen\PartySelectSpawn.cs" />
-     <Compile Include="Assets\Scripts\CharSelectionScreen\PartySpot.cs" />
-     <Compile Include="Assets\Scripts\DragMe.cs" />
-     <Compile Include="Assets\Scripts\DragPanel.cs" />
-     <Compile Include="Assets\Scripts\DropMe.cs" />
-     <Compile Include="Assets\Scripts\Level 1\LightFlicker.cs" />
-     <Compile Include="Assets\Scripts\Level 1\MainUIFunction.cs" />
-     <Compile Include="Assets\Scripts\PanelManager.cs" />
-     <Compile Include="Assets\Scripts\ResizePanel.cs" />
-     <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
-     <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
-     <Compile Include="Assets\Scripts\TiltWindow.cs" />
-     <None Include="Assets\Day-Night Skyboxes\readme.txt" />
-     <None Include="Assets\NeatWolf\ParticleFX03\_Shaders\NW_Particle AddSmooth.shader" />
-     <None Include="Assets\ArtAssets\Barriers\WoodFence_02\_ReadMe_Plank_Fence.txt" />
-     <None Include="Assets\ArtAssets\Damaged_old_van\readme.txt" />
-     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
-     <None Include="Assets\ArtAssets\Damaged_old_car\readme.txt" />
-     <None Include="Assets\NeatWolf\ParticleFX03\_Shaders\NW_Particle Rim AddSmooth.shader" />
-     <None Include="Assets\Art\Textures and Sprites\SF UI\Background\LICENSE.txt" />
-     <None Include="Assets\NeatWolf\ParticleFX03\_Shaders\NW_Reflective Alpha.shader" />
-     <None Include="Assets\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
-     <None Include="Assets\ArtAssets\Barriers\BrickFence_01\_BrickFenceReadme.txt" />
-     <None Include="Assets\NeatWolf\ParticleFX03\_Docs\Readme.txt" />
-     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\NeatWolf\ParticleFX03\_Shaders\NW_Particle Rim AddSmooth 2S.shader" />
-     <None Include="Assets\Elementals\Readme.txt" />
-     <None Include="Assets\NeatWolf\ParticleFX03\_Shaders\NW_Reflective Add.shader" />
-     <None Include="Assets\Art\Materials\UI-Default-No-Alpha.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-     <None Include="Assets\ArtAssets\Vehicles\RuinedTruck\Shaders\Normal-BumpSpec.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
-     <None Include="Assets\NeatWolf\ParticleFX03\_Shaders\NW_Unlit Color.shader" />
+     <Compile Include="Assets\Resources\Elementals\Demo\Scripts\GE_Elementals_Demo.cs" />
+     <Compile Include="Assets\Resources\NeatWolf\ParticleFX03\_Scripts\Rotating.cs" />
+     <Compile Include="Assets\Resources\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Resources\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\ChangeColor.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharSelectionScreen\AddSpriteToParty.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharSelectionScreen\CharButtons.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharSelectionScreen\CharInfoPanel.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharSelectionScreen\EnemyPartyPanel.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharSelectionScreen\EnemyPartySpot.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharSelectionScreen\FightSelectSpawn.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharSelectionScreen\GoToCharSelectTestButton.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharSelectionScreen\GoToFightButton.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharSelectionScreen\PartySelectSpawn.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharSelectionScreen\PartySpot.cs" />
+     <Compile Include="Assets\Resources\Scripts\DragMe.cs" />
+     <Compile Include="Assets\Resources\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Resources\Scripts\DropMe.cs" />
+     <Compile Include="Assets\Resources\Scripts\Level 1\LightFlicker.cs" />
+     <Compile Include="Assets\Resources\Scripts\Level 1\MainUIFunction.cs" />
+     <Compile Include="Assets\Resources\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\Resources\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Resources\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\Resources\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <None Include="Assets\Resources\Day-Night Skyboxes\readme.txt" />
+     <None Include="Assets\Resources\NeatWolf\ParticleFX03\_Shaders\NW_Particle AddSmooth.shader" />
+     <None Include="Assets\Resources\ArtAssets\Barriers\WoodFence_02\_ReadMe_Plank_Fence.txt" />
+     <None Include="Assets\Resources\ArtAssets\Damaged_old_van\readme.txt" />
+     <None Include="Assets\Resources\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Resources\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Resources\ArtAssets\Damaged_old_car\readme.txt" />
+     <None Include="Assets\Resources\NeatWolf\ParticleFX03\_Shaders\NW_Particle Rim AddSmooth.shader" />
+     <None Include="Assets\Resources\Art\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\Resources\NeatWolf\ParticleFX03\_Shaders\NW_Reflective Alpha.shader" />
+     <None Include="Assets\Resources\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
+     <None Include="Assets\Resources\ArtAssets\Barriers\BrickFence_01\_BrickFenceReadme.txt" />
+     <None Include="Assets\Resources\NeatWolf\ParticleFX03\_Docs\Readme.txt" />
+     <None Include="Assets\Resources\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Resources\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Resources\NeatWolf\ParticleFX03\_Shaders\NW_Particle Rim AddSmooth 2S.shader" />
+     <None Include="Assets\Resources\Elementals\Readme.txt" />
+     <None Include="Assets\Resources\NeatWolf\ParticleFX03\_Shaders\NW_Reflective Add.shader" />
+     <None Include="Assets\Resources\Art\Materials\UI-Default-No-Alpha.shader" />
+     <None Include="Assets\Resources\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Resources\ArtAssets\Vehicles\RuinedTruck\Shaders\Normal-BumpSpec.shader" />
+     <None Include="Assets\Resources\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Resources\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Resources\NeatWolf\ParticleFX03\_Shaders\NW_Unlit Color.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{131F30C2-2EF1-5CD4-CDAB-A7C2721999BA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
