@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 3c92a6caff3299140b55933646208937
+timeCreated: 1480562287
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ct_neck_01
+    100002: Ct_neck_02
+    100004: Ct_spine_01
+    100006: Ct_spine_02
+    100008: Ct_spine_03
+    100010: Ct_spine_04
+    100012: Ct_spine_05
+    100014: Head_Alex3
+    100016: Lt_ankle
+    100018: Lt_arm_ikHandle
+    100020: Lt_coller
+    100022: Lt_elbow
+    100024: Lt_fingerd__01
+    100026: Lt_fingerd__02
+    100028: Lt_fingerd__02 1
+    100030: Lt_fingerd__02 2
+    100032: Lt_fingerd__02 3
+    100034: Lt_fingerd__03
+    100036: Lt_fingerd__04
+    100038: Lt_fingerd__05
+    100040: Lt_hip
+    100042: Lt_knee
+    100044: Lt_leg_ikHandle
+    100046: Lt_shulder
+    100048: Lt_thumb__01
+    100050: Lt_thumb__02
+    100052: Lt_toe
+    100054: Lt_wrist
+    100056: //RootNode
+    100058: Rt_ankle
+    100060: Rt_arm_ikHandle
+    100062: Rt_coller
+    100064: Rt_elbow
+    100066: Rt_fingerd__01
+    100068: Rt_fingerd__02
+    100070: Rt_fingerd__02 1
+    100072: Rt_fingerd__02 2
+    100074: Rt_fingerd__02 3
+    100076: Rt_fingerd__03
+    100078: Rt_fingerd__04
+    100080: Rt_fingerd__05
+    100082: Rt_hip
+    100084: Rt_knee
+    100086: Rt_leg_ikHandle
+    100088: Rt_shulder
+    100090: Rt_thumb__01
+    100092: Rt_thumb__02
+    100094: Rt_toe
+    100096: Rt_wrist
+    400000: Ct_neck_01
+    400002: Ct_neck_02
+    400004: Ct_spine_01
+    400006: Ct_spine_02
+    400008: Ct_spine_03
+    400010: Ct_spine_04
+    400012: Ct_spine_05
+    400014: Head_Alex3
+    400016: Lt_ankle
+    400018: Lt_arm_ikHandle
+    400020: Lt_coller
+    400022: Lt_elbow
+    400024: Lt_fingerd__01
+    400026: Lt_fingerd__02
+    400028: Lt_fingerd__02 1
+    400030: Lt_fingerd__02 2
+    400032: Lt_fingerd__02 3
+    400034: Lt_fingerd__03
+    400036: Lt_fingerd__04
+    400038: Lt_fingerd__05
+    400040: Lt_hip
+    400042: Lt_knee
+    400044: Lt_leg_ikHandle
+    400046: Lt_shulder
+    400048: Lt_thumb__01
+    400050: Lt_thumb__02
+    400052: Lt_toe
+    400054: Lt_wrist
+    400056: //RootNode
+    400058: Rt_ankle
+    400060: Rt_arm_ikHandle
+    400062: Rt_coller
+    400064: Rt_elbow
+    400066: Rt_fingerd__01
+    400068: Rt_fingerd__02
+    400070: Rt_fingerd__02 1
+    400072: Rt_fingerd__02 2
+    400074: Rt_fingerd__02 3
+    400076: Rt_fingerd__03
+    400078: Rt_fingerd__04
+    400080: Rt_fingerd__05
+    400082: Rt_hip
+    400084: Rt_knee
+    400086: Rt_leg_ikHandle
+    400088: Rt_shulder
+    400090: Rt_thumb__01
+    400092: Rt_thumb__02
+    400094: Rt_toe
+    400096: Rt_wrist
+    4300000: Head_Alex3
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Head_Alex3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
