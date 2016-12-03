@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Resources/Scenes/Character Select.unity
+- path: Assets/Resources/Jeff Smith Assets/Scenes/MainMenu.unity
   isLoaded: 1
   isActive: 1
