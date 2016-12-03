@@ -127,6 +127,9 @@
     <Reference Include="Mono.Cecil">
       <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Kinetic_Beginnings.csproj">
@@ -186,6 +189,8 @@
     <None Include="Assets\Resources\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Resources\Jeff Smith Assets\Assets\Earth\Materials\EarthShader.shader" />
     <None Include="Assets\Resources\Jeff Smith Assets\Assets\Earth\Readme.txt" />
+    <None Include="Assets\Resources\Jeff Smith Assets\Assets\Moon\Moon - Readme.txt" />
+    <None Include="Assets\Resources\Jeff Smith Assets\Assets\Moon\Shaders\planetshader.shader" />
     <None Include="Assets\Resources\Jeff Smith Assets\Assets\SpaceShift UI for UGUI\Changelog.txt" />
     <None Include="Assets\Resources\Jeff Smith Assets\Assets\SpaceShift UI for UGUI\Readme.txt" />
     <None Include="Assets\Resources\NeatWolf\ParticleFX03\_Docs\Readme.txt" />

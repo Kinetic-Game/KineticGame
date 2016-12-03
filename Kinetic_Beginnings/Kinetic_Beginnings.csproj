@@ -166,6 +166,7 @@
     <Compile Include="Assets\Resources\Jeff Smith Assets\Assets\SpaceShift UI for UGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\Resources\Jeff Smith Assets\Assets\SpaceShift UI for UGUI\Scripts\UI\UIWindow.cs" />
     <Compile Include="Assets\Resources\Jeff Smith Assets\Assets\SpaceShift UI for UGUI\Scripts\UI\UIWindowManager.cs" />
+    <Compile Include="Assets\Resources\Jeff Smith Assets\Scripts\MenuHandler.cs" />
     <Compile Include="Assets\Resources\NeatWolf\ParticleFX03\_Scripts\Rotating.cs" />
     <Compile Include="Assets\Resources\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Resources\Scripts\AlexAttributes.cs" />
@@ -253,6 +254,8 @@
     <None Include="Assets\Resources\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Resources\Jeff Smith Assets\Assets\Earth\Materials\EarthShader.shader" />
     <None Include="Assets\Resources\Jeff Smith Assets\Assets\Earth\Readme.txt" />
+    <None Include="Assets\Resources\Jeff Smith Assets\Assets\Moon\Moon - Readme.txt" />
+    <None Include="Assets\Resources\Jeff Smith Assets\Assets\Moon\Shaders\planetshader.shader" />
     <None Include="Assets\Resources\Jeff Smith Assets\Assets\SpaceShift UI for UGUI\Changelog.txt" />
     <None Include="Assets\Resources\Jeff Smith Assets\Assets\SpaceShift UI for UGUI\Readme.txt" />
     <None Include="Assets\Resources\NeatWolf\ParticleFX03\_Docs\Readme.txt" />
