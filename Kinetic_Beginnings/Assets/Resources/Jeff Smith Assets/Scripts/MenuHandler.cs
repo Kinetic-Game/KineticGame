@@ -1,17 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuHandler : MonoBehaviour {
+
+    [Tooltip("Type the first scene name to load here.")]
+    public string Scene;
 
     public GameObject MainMenu;
     public GameObject OptionsMenu;
     public GameObject CreditsMenu;
+    public GameObject PlayerStoreMenu;
+    public GameObject Earth;
 
     // Use this for initialization
     void Start () {
         OptionsMenu.SetActive(false);
         CreditsMenu.SetActive(false);
+        PlayerStoreMenu.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -45,6 +52,28 @@ public class MenuHandler : MonoBehaviour {
         CreditsMenu.SetActive(false);
     }
 
+    public void ExitButton ()
+    {
+        Application.Quit();
+    }
 
+    public void StartGameButton()
+    {
+        SceneManager.LoadScene(Scene);
+    }
+
+    public void PlayerStoreOpen()
+    {
+        MainMenu.SetActive(false);
+        PlayerStoreMenu.SetActive(true);
+        Earth.SetActive(false);
+    }
+
+    public void PlayerStoreClose()
+    {
+        MainMenu.SetActive(true);
+        PlayerStoreMenu.SetActive(false);
+        Earth.SetActive(true);
+    }
 
 }
