@@ -132,6 +132,7 @@ public class PartySelectSpawn : MonoBehaviour {
                         SpwnWhichMember();
                         Instantiate(plyrPrefabs[memNumber], plyrSpawnPoints[0].transform.position, plyrSpawnPoints[0].transform.rotation);
                     }
+
                 }
 
                 hasSpawned = true;

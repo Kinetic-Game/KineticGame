@@ -1,21 +1,33 @@
 ﻿using UnityEngine;
 
 
-public class CharAttributes {
+public class CharAttributes: MonoBehaviour {
 
-    public static float curHealth;
-    public static float maxHealth;
-    public static float curKinetic;
-    public static float maxKinetic;
-    public static float restHamt;
-    public static float restKamt;
-    public static float defense;
-    public static int curLevel;
-    public static int lvlIncAmt;
-    public static int curXP;
+    protected float curHealth;
+    public float maxHealth;
+    protected float curKinetic;
+    public float maxKinetic;
+    public float restHamt;
+    public float restKamt;
+    public float attack;
+    public float defense;
+    private int curLevel;
+    private int nextLevelAmt;
+    private int lvlIncAmt;
+    private int curXP;
+    public string sTag;
 
 
-    public static void AdjHealth(float _amt)
+   public void OnTriggerEnter(Collider _col)
+    {
+        if (_col.tag == "Enemy")
+        {
+            float dmg = 0f;
+            AdjHealth(dmg);
+        }
+    }
+
+    public void AdjHealth(float _amt)
     {
         if (_amt < 0)
         {
@@ -36,22 +48,27 @@ public class CharAttributes {
         
     }
 
-    public static void Rest()
+    public void Rest()
     {
         curHealth += restHamt;
         curKinetic += restKamt;
     }
 
-    public static void LevelUp()
+    public void LevelUp()
     {
         curLevel++;
+        maxHealth = maxHealth * lvlIncAmt;
+        maxKinetic = maxKinetic * lvlIncAmt;
+        restHamt = restHamt * lvlIncAmt;
+        restKamt = restKamt * lvlIncAmt;
+//Increase nextlevelAmt or reset?
     }
 
-    public static void AddXP(int _amt)
+    public void AddXP(int _amt)
     {
         curXP += _amt;
 
-        if (curXP >= curLevel * lvlIncAmt)
+        if (curXP >= curLevel * nextLevelAmt)
         {
             LevelUp();
         }

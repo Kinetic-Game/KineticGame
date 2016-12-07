@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -70,17 +67,11 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -172,11 +163,12 @@
     <Compile Include="Assets\Resources\Jeff Smith Assets\Assets\SpaceShift UI for UGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\Resources\Jeff Smith Assets\Assets\SpaceShift UI for UGUI\Scripts\UI\UIWindow.cs" />
     <Compile Include="Assets\Resources\Jeff Smith Assets\Assets\SpaceShift UI for UGUI\Scripts\UI\UIWindowManager.cs" />
+    <Compile Include="Assets\Resources\Jeff Smith Assets\Scripts\CombatUIHandler.cs" />
     <Compile Include="Assets\Resources\Jeff Smith Assets\Scripts\MenuHandler.cs" />
+    <Compile Include="Assets\Resources\Jeff Smith Assets\Scripts\PauseMenuScript.cs" />
     <Compile Include="Assets\Resources\NeatWolf\ParticleFX03\_Scripts\Rotating.cs" />
     <Compile Include="Assets\Resources\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Resources\Scripts\AlexAttributes.cs" />
-    <Compile Include="Assets\Resources\Scripts\AlexCharStats.cs" />
     <Compile Include="Assets\Resources\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Resources\Scripts\BasicCharStats.cs" />
     <Compile Include="Assets\Resources\Scripts\ChangeColor.cs" />
@@ -194,6 +186,9 @@
     <Compile Include="Assets\Resources\Scripts\DragMe.cs" />
     <Compile Include="Assets\Resources\Scripts\DragPanel.cs" />
     <Compile Include="Assets\Resources\Scripts\DropMe.cs" />
+    <Compile Include="Assets\Resources\Scripts\EnemyAttributes.cs" />
+    <Compile Include="Assets\Resources\Scripts\EnemyScoutAttributes.cs" />
+    <Compile Include="Assets\Resources\Scripts\Level 1\GameStateMachine.cs" />
     <Compile Include="Assets\Resources\Scripts\Level 1\LightFlicker.cs" />
     <Compile Include="Assets\Resources\Scripts\Level 1\MainUIFunction.cs" />
     <Compile Include="Assets\Resources\Scripts\PanelManager.cs" />

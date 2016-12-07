@@ -21,5 +21,16 @@ public class BasicCharStats : MonoBehaviour {
 
 	public static int level = 1;
 
+    public static string tag = "PC";
 
+    public static void AdjustHealth(int _num)
+    {
+        curHealth += _num;
+
+        if (curHealth <= 0)
+        {
+            //Kill the Character
+            Debug.Log("This character is dead.");
+        }
+    }
 }

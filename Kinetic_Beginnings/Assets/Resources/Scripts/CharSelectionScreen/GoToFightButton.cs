@@ -44,7 +44,7 @@ public class GoToFightButton : MonoBehaviour {
     {
         if (thisButton.interactable == true)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("SpawnTestScene");
         }
     }
 }

@@ -7,24 +7,14 @@ public class FightSelectSpawn : MonoBehaviour {
     int level;
     public GameObject[] lvlPrefabs;
     bool lvlSpawned = false;
+    int f = 0;
 
 
-    public bool f1Active = false;
-    public bool f2Active = false;
-    public bool f3Active = false;
-    public bool f4Active = false;
-    public bool f5Active = false;
-    public bool f6Active = false;
-    public bool f7Active = false;
-    public bool f8Active = false;
-    public bool f9Active = false;
-    public bool f10Active = false;
-    public bool f11Active = false;
 
     // Use this for initialization
     void Start ()
     {
-        f1Active = true;
+        IncreaseFight();
 	}
 	
 	// Update is called once per frame
@@ -38,39 +28,38 @@ public class FightSelectSpawn : MonoBehaviour {
     {
         if (EditorSceneManager.GetActiveScene().name == "Character Select")
         {
-            if (f1Active == false && f2Active == false && f3Active == false && f4Active == false && f5Active == false && f6Active == false && f7Active == false && f8Active == false && f9Active == false && f10Active == false && f11Active == false)
+            if (f==0)
             {
                 return;
             }
                 
                 //Check here for which fight is active, and set up char select screen approprately.
-            if (f1Active == true)
+            if (f == 1)
             {
                 //Alex is available, vs Dimitri
                 Button butt = GameObject.Find("AlexButton").GetComponent<Button>();
                 butt.interactable = true;
 
                 //Set up eney fight panel here
-                f1Active = false;
+
             }
-            if (f2Active == true)
+            if (f == 2)
             {
                 //Dimitri is available, vs chris
                 Button butt = GameObject.Find("DimitriButton").GetComponent<Button>();
                 butt.interactable = true;
 
-                f2Active = false;
             }
-            if (f3Active == true)
+            if (f == 3)
             {
                 //Alex is available, vs Cassie
                 Button butt = GameObject.Find("AlexButton").GetComponent<Button>();
                 butt.interactable = true;
 
                 //Set up eney fight panel here
-                f3Active = false;
+
             }
-            if (f4Active == true)
+            if (f == 4)
             {
                 //Alex, Cassie, Dimitri, Chris is available, player can pick 2 vs Tori
                 Button butt = GameObject.Find("AlexButton").GetComponent<Button>();
@@ -86,33 +75,33 @@ public class FightSelectSpawn : MonoBehaviour {
                 butt.gameObject.active = false;
 
                 //Set up eney fight panel here
-                f4Active = false;
+
             }
-            if (f5Active == true)
+            if (f == 5)
             {
 
             }
-            if (f6Active == true)
+            if (f == 6)
             {
 
             }
-            if (f7Active == true)
+            if (f == 7)
             {
 
             }
-            if (f8Active == true)
+            if (f == 8)
             {
 
             }
-            if (f9Active == true)
+            if (f == 9)
             {
 
             }
-            if (f10Active == true)
+            if (f == 10)
             {
 
             }
-            if (f11Active == true)
+            if (f == 11)
             {
 
             }
@@ -148,5 +137,10 @@ public class FightSelectSpawn : MonoBehaviour {
     public void IncreaseLvl()
     {
         level++;
+    }
+
+    public void IncreaseFight()
+    {
+        f++;
     }
 }
