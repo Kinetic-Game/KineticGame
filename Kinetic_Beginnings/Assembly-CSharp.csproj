@@ -136,6 +136,7 @@
      <Compile Include="Assets\Resources\Jeff Smith Assets\Assets\SpaceShift UI for UGUI\Scripts\UI\UIWindowManager.cs" />
      <Compile Include="Assets\Resources\Jeff Smith Assets\Scripts\CombatUIHandler.cs" />
      <Compile Include="Assets\Resources\Jeff Smith Assets\Scripts\MenuHandler.cs" />
+     <Compile Include="Assets\Resources\Jeff Smith Assets\Scripts\PauseMenuScript.cs" />
      <Compile Include="Assets\Resources\NeatWolf\ParticleFX03\_Scripts\Rotating.cs" />
      <Compile Include="Assets\Resources\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\Resources\Scripts\AlexAttributes.cs" />
@@ -157,6 +158,7 @@
      <Compile Include="Assets\Resources\Scripts\DragMe.cs" />
      <Compile Include="Assets\Resources\Scripts\DragPanel.cs" />
      <Compile Include="Assets\Resources\Scripts\DropMe.cs" />
+     <Compile Include="Assets\Resources\Scripts\Level 1\GameStateMachine.cs" />
      <Compile Include="Assets\Resources\Scripts\Level 1\LightFlicker.cs" />
      <Compile Include="Assets\Resources\Scripts\Level 1\MainUIFunction.cs" />
      <Compile Include="Assets\Resources\Scripts\PanelManager.cs" />

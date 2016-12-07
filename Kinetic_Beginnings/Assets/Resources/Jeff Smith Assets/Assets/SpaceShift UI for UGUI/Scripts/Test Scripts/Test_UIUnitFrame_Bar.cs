@@ -13,6 +13,7 @@ namespace UnityEngine.UI
 		// Tween controls
 		[NonSerialized] private readonly TweenRunner<FloatTween> m_FloatTweenRunner;
 		
+
 		// Called by Unity prior to deserialization, 
 		// should not be called by users
 		protected Test_UIUnitFrame_Bar()
@@ -53,5 +54,6 @@ namespace UnityEngine.UI
 		{
 			this.StartDemoTween();
 		}
+		
 	}
 }
