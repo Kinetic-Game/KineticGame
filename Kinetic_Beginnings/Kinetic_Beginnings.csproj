@@ -73,6 +73,12 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Resources\Elementals\Demo\Scripts\GE_Elementals_Demo.cs" />
@@ -248,6 +254,8 @@
     <None Include="Assets\Resources\ArtAssets\Barriers\WoodFence_02\_ReadMe_Plank_Fence.txt" />
     <None Include="Assets\Resources\ArtAssets\Damaged_old_car\readme.txt" />
     <None Include="Assets\Resources\ArtAssets\Damaged_old_van\readme.txt" />
+    <None Include="Assets\Resources\ArtAssets\Trees\BirchPackVol1\Works For Fun.txt" />
+    <None Include="Assets\Resources\ArtAssets\Trees\laxer tree pkg\README.txt" />
     <None Include="Assets\Resources\ArtAssets\Vehicles\RuinedTruck\Shaders\Normal-BumpSpec.shader" />
     <None Include="Assets\Resources\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
     <None Include="Assets\Resources\Day-Night Skyboxes\readme.txt" />
