@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class FightSelectSpawn : MonoBehaviour {
@@ -26,7 +26,7 @@ public class FightSelectSpawn : MonoBehaviour {
     // Use this method to control which enemies are displayed & which party members are active for each fight, also to spawn the level
     void FightController()
     {
-        if (EditorSceneManager.GetActiveScene().name == "Character Select")
+        if (SceneManager.GetActiveScene().name == "Character Select")
         {
             if (f==0)
             {
@@ -107,7 +107,7 @@ public class FightSelectSpawn : MonoBehaviour {
             }
         }
 
-        else if (EditorSceneManager.GetActiveScene().name != "Character Select")
+        else if (SceneManager.GetActiveScene().name != "Character Select")
         {
             if (lvlSpawned == true)
             {

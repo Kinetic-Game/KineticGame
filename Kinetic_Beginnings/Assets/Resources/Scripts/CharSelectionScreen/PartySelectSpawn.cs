@@ -2,11 +2,10 @@
 using System.Collections;
 using System;
 using UnityEngine.UI;
-using UnityEditor;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class PartySelectSpawn : MonoBehaviour {
-    [HideInInspector]
+	/*  [HideInInspector]
     public Button[] partySpot = new Button[3];
     [HideInInspector]
     public GameObject[] plyrSpawnPoints = new GameObject[3];
@@ -50,12 +49,12 @@ public class PartySelectSpawn : MonoBehaviour {
 
     void PartyCheck()
     {
-        if (EditorSceneManager.GetActiveScene().name != "Character Select" || partySpot[0] == null)
+        if (SceneManager.GetActiveScene().name != "Character Select" || partySpot[0] == null)
         {
             return;
         }
 
-        if (EditorSceneManager.GetActiveScene().name == "Character Select" && partySpot[0] != null)
+        if (SceneManager.GetActiveScene().name == "Character Select" && partySpot[0] != null)
         {
             if (partySpot[0].image.sprite != null)
             {
@@ -79,7 +78,7 @@ public class PartySelectSpawn : MonoBehaviour {
 
     void LevelCheckandLoad()
     {
-        if (EditorSceneManager.GetActiveScene().name == "Character Select")
+        if (SceneManager.GetActiveScene().name == "Character Select")
         {
             if (partySpot[0] != null)
             {
@@ -101,7 +100,7 @@ public class PartySelectSpawn : MonoBehaviour {
         }
 
 
-        if (EditorSceneManager.GetActiveScene().name != "Character Select")
+        if (SceneManager.GetActiveScene().name != "Character Select")
         {
             if (hasSpawned == true || fightSpwn.ReturnLvlSpawn() == false)
             {
@@ -186,5 +185,5 @@ public class PartySelectSpawn : MonoBehaviour {
         }
     }
 
-
+*/
 }
