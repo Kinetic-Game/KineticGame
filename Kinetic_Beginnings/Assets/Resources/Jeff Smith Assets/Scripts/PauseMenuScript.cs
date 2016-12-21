@@ -23,6 +23,7 @@ public class PauseMenuScript : MonoBehaviour {
 
 	public void MainMenuButton()
 	{
+		Time.timeScale = 1.0f;
 		SceneManager.LoadScene("MainMenu");
 	}
 
@@ -41,7 +42,7 @@ public class PauseMenuScript : MonoBehaviour {
 	}
 
 	public void RestartButton () {
-
+		Time.timeScale = 1.0f;
 		CurrentScene = SceneManager.GetActiveScene ().name;
 		SceneManager.LoadScene(CurrentScene);
 	}
