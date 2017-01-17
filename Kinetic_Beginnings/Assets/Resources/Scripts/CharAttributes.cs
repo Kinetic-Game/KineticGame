@@ -3,9 +3,9 @@
 
 public class CharAttributes: MonoBehaviour {
 
-    protected float curHealth;
+    public float curHealth;
     public float maxHealth;
-    protected float curKinetic;
+    public float curKinetic;
     public float maxKinetic;
     public float restHamt;
     public float restKamt;
@@ -22,7 +22,7 @@ public class CharAttributes: MonoBehaviour {
     {
         if (_col.tag == "Enemy")
         {
-            float dmg = 0f;
+            float dmg = -50f;
             AdjHealth(dmg);
         }
     }

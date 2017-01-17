@@ -6,8 +6,8 @@ public class AlexAttributes : CharAttributes {
 	// Use this for initialization
 	void Start ()
     {
-        curHealth = maxHealth;
-        curKinetic = maxKinetic;
+      //  curHealth = maxHealth;
+      //  curKinetic = maxKinetic;
         
         
 	}
@@ -16,7 +16,5 @@ public class AlexAttributes : CharAttributes {
 	void Update () {
 	
 	}
-
-
 
 }

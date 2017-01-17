@@ -119,7 +119,131 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ct_spine_01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Ct_neck_01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Ct_neck_01/Ct_neck_02
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__01/Lt_fingerd__02
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__03
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__03/Lt_fingerd__02
+          1
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__04
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__04/Lt_fingerd__02
+          2
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__05
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__05/Lt_fingerd__02
+          3
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_thumb__01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_thumb__01/Lt_thumb__02
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__01/Rt_fingerd__02
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__03
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__03/Rt_fingerd__02
+          1
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__04
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__04/Rt_fingerd__02
+          2
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__05
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__05/Rt_fingerd__02
+          3
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_thumb__01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_thumb__01/Rt_thumb__02
+        weight: 1
+      - path: Ct_spine_01/Lt_hip
+        weight: 1
+      - path: Ct_spine_01/Lt_hip/Lt_knee
+        weight: 1
+      - path: Ct_spine_01/Lt_hip/Lt_knee/Lt_ankle
+        weight: 1
+      - path: Ct_spine_01/Lt_hip/Lt_knee/Lt_ankle/Lt_toe
+        weight: 1
+      - path: Ct_spine_01/Rt_hip
+        weight: 1
+      - path: Ct_spine_01/Rt_hip/Rt_knee
+        weight: 1
+      - path: Ct_spine_01/Rt_hip/Rt_knee/Rt_ankle
+        weight: 1
+      - path: Ct_spine_01/Rt_hip/Rt_knee/Rt_ankle/Rt_toe
+        weight: 1
+      - path: Head_Alex3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -145,6 +269,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -155,7 +280,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1

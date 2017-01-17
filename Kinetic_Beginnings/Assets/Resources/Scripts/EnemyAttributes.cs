@@ -2,17 +2,17 @@
 
 public class EnemyAttributes : MonoBehaviour {
 
-    public static float curHealth;
-    public static float maxHealth;
-    public static float curKinetic;
-    public static float maxKinetic;
-    public static float restHamt;
-    public static float restKamt;
-    public static float attack;
-    public static float defense;
-    public static string tag = "Enemy";
+    public float curHealth;
+    public float maxHealth;
+    public float curKinetic;
+    public float maxKinetic;
+    public float restHamt;
+    public float restKamt;
+    public float attack;
+    public float defense;
+    public string sTag = "Enemy";
 
-    public static void AdjHealth(float _amt)
+    public void AdjHealth(float _amt)
     {
         if (_amt < 0)
         {
@@ -33,7 +33,7 @@ public class EnemyAttributes : MonoBehaviour {
 
     }
 
-    public static void Rest()
+    public void Rest()
     {
         curHealth += restHamt;
         curKinetic += restKamt;

@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: d698dd84018a2154bade8d7f1f9ff1a0
+timeCreated: 1484635585
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ct_neck_01
+    100002: Ct_neck_02
+    100004: Ct_spine_01
+    100006: Ct_spine_02
+    100008: Ct_spine_03
+    100010: Ct_spine_04
+    100012: Ct_spine_05
+    100014: //RootNode
+    100016: Head_Alex3
+    100018: Lt_ankle
+    100020: Lt_arm_ikHandle
+    100022: Lt_coller
+    100024: Lt_elbow
+    100026: Lt_fingerd__01
+    100028: Lt_fingerd__02
+    100030: Lt_fingerd__02 1
+    100032: Lt_fingerd__02 2
+    100034: Lt_fingerd__02 3
+    100036: Lt_fingerd__03
+    100038: Lt_fingerd__04
+    100040: Lt_fingerd__05
+    100042: Lt_hip
+    100044: Lt_knee
+    100046: Lt_leg_ikHandle
+    100048: Lt_shulder
+    100050: Lt_thumb__01
+    100052: Lt_thumb__02
+    100054: Lt_toe
+    100056: Lt_wrist
+    100058: pPlane2
+    100060: Rt_ankle
+    100062: Rt_arm_ikHandle
+    100064: Rt_coller
+    100066: Rt_elbow
+    100068: Rt_fingerd__01
+    100070: Rt_fingerd__02
+    100072: Rt_fingerd__02 1
+    100074: Rt_fingerd__02 2
+    100076: Rt_fingerd__02 3
+    100078: Rt_fingerd__03
+    100080: Rt_fingerd__04
+    100082: Rt_fingerd__05
+    100084: Rt_hip
+    100086: Rt_knee
+    100088: Rt_leg_ikHandle
+    100090: Rt_shulder
+    100092: Rt_thumb__01
+    100094: Rt_thumb__02
+    100096: Rt_toe
+    100098: Rt_wrist
+    400000: Ct_neck_01
+    400002: Ct_neck_02
+    400004: Ct_spine_01
+    400006: Ct_spine_02
+    400008: Ct_spine_03
+    400010: Ct_spine_04
+    400012: Ct_spine_05
+    400014: //RootNode
+    400016: Head_Alex3
+    400018: Lt_ankle
+    400020: Lt_arm_ikHandle
+    400022: Lt_coller
+    400024: Lt_elbow
+    400026: Lt_fingerd__01
+    400028: Lt_fingerd__02
+    400030: Lt_fingerd__02 1
+    400032: Lt_fingerd__02 2
+    400034: Lt_fingerd__02 3
+    400036: Lt_fingerd__03
+    400038: Lt_fingerd__04
+    400040: Lt_fingerd__05
+    400042: Lt_hip
+    400044: Lt_knee
+    400046: Lt_leg_ikHandle
+    400048: Lt_shulder
+    400050: Lt_thumb__01
+    400052: Lt_thumb__02
+    400054: Lt_toe
+    400056: Lt_wrist
+    400058: pPlane2
+    400060: Rt_ankle
+    400062: Rt_arm_ikHandle
+    400064: Rt_coller
+    400066: Rt_elbow
+    400068: Rt_fingerd__01
+    400070: Rt_fingerd__02
+    400072: Rt_fingerd__02 1
+    400074: Rt_fingerd__02 2
+    400076: Rt_fingerd__02 3
+    400078: Rt_fingerd__03
+    400080: Rt_fingerd__04
+    400082: Rt_fingerd__05
+    400084: Rt_hip
+    400086: Rt_knee
+    400088: Rt_leg_ikHandle
+    400090: Rt_shulder
+    400092: Rt_thumb__01
+    400094: Rt_thumb__02
+    400096: Rt_toe
+    400098: Rt_wrist
+    2300000: pPlane2
+    3300000: pPlane2
+    4300000: Head_Alex3
+    4300002: pPlane2
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Head_Alex3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ct_spine_01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Ct_neck_01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Ct_neck_01/Ct_neck_02
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__01/Lt_fingerd__02
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__03
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__03/Lt_fingerd__02
+          1
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__04
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__04/Lt_fingerd__02
+          2
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__05
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_fingerd__05/Lt_fingerd__02
+          3
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_thumb__01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Lt_coller/Lt_shulder/Lt_elbow/Lt_wrist/Lt_thumb__01/Lt_thumb__02
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__01/Rt_fingerd__02
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__03
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__03/Rt_fingerd__02
+          1
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__04
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__04/Rt_fingerd__02
+          2
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__05
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_fingerd__05/Rt_fingerd__02
+          3
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_thumb__01
+        weight: 1
+      - path: Ct_spine_01/Ct_spine_02/Ct_spine_03/Ct_spine_04/Ct_spine_05/Rt_coller/Rt_shulder/Rt_elbow/Rt_wrist/Rt_thumb__01/Rt_thumb__02
+        weight: 1
+      - path: Ct_spine_01/Lt_hip
+        weight: 1
+      - path: Ct_spine_01/Lt_hip/Lt_knee
+        weight: 1
+      - path: Ct_spine_01/Lt_hip/Lt_knee/Lt_ankle
+        weight: 1
+      - path: Ct_spine_01/Lt_hip/Lt_knee/Lt_ankle/Lt_toe
+        weight: 1
+      - path: Ct_spine_01/Rt_hip
+        weight: 1
+      - path: Ct_spine_01/Rt_hip/Rt_knee
+        weight: 1
+      - path: Ct_spine_01/Rt_hip/Rt_knee/Rt_ankle
+        weight: 1
+      - path: Ct_spine_01/Rt_hip/Rt_knee/Rt_ankle/Rt_toe
+        weight: 1
+      - path: Head_Alex3
+        weight: 1
+      - path: Lt_arm_ikHandle
+        weight: 1
+      - path: Lt_leg_ikHandle
+        weight: 1
+      - path: pPlane2
+        weight: 1
+      - path: Rt_arm_ikHandle
+        weight: 1
+      - path: Rt_leg_ikHandle
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
