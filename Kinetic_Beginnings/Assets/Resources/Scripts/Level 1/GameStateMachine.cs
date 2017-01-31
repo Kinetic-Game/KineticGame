@@ -14,6 +14,10 @@ public class GameStateMachine : MonoBehaviour {
 
     public GameStates previousState;
 
+    public AlexAttributes alexAtt;
+
+    public EnemyAttributes enemyAtt;
+
     public enum GameStates
     {
         EnterGame,
@@ -60,11 +64,26 @@ public class GameStateMachine : MonoBehaviour {
     {
         Debug.Log("Player Turn");
 
-        if (UIPresses.whenPressed == true)
+        if (UIPresses.attackPressed == true)
         {
-            
+            alexAtt.isAttacking = true;
 
-            Debug.Log("UI Was Pressed");
+            //play attack animation
+
+          //  Debug.Log("UI Was Pressed");
+
+         //   if (alexAtt.enemyDefeated == true)
+          //  {
+        //        SetState(GameStates.End);
+          //  }
+
+            if (UIPresses.defendPressed == true)
+            {
+                //play defend animation
+
+                alexAtt.isDefending = true;
+                SetState(GameStates.EnemyTurn);
+            }
 
             SetState (GameStates.EnemyTurn);
 
@@ -76,8 +95,19 @@ public class GameStateMachine : MonoBehaviour {
     {
         EnemyTime += Time.deltaTime;
 
-        if (EnemyTime >= 2)
+        Debug.Log("EnemyTurn");
+
+        if (EnemyTime >= 10)
         {
+            //play animation
+
+            enemyAtt.enemyAttacking = true;
+
+            if(alexAtt.isDefending == true)
+            {
+
+            }
+
             SetState(GameStates.End);
 
             EnemyTime = 0;

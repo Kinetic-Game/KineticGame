@@ -11,7 +11,9 @@ public class MainUIFunction : MonoBehaviour {
 
 	public Animator attackTest;
 
-    public bool whenPressed;
+    public bool attackPressed;
+
+    public bool defendPressed;
 
 	// Use this for initialization
 	void Start () 
@@ -34,7 +36,7 @@ public class MainUIFunction : MonoBehaviour {
 	{
 		print ("Pow!");
 
-		whenPressed = true;
+		attackPressed = true;
 
 		//attackTest.SetBool ("whenPressed", true);
 
@@ -48,6 +50,8 @@ public class MainUIFunction : MonoBehaviour {
 	public void OnPressDefend()
 	{
 		print ("Protect!");
+
+        defendPressed = true;
 	}
 
 	public void OnPressKinesis()
